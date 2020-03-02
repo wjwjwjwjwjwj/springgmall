@@ -10,10 +10,10 @@ import lombok.Data;
 public class QueryCondition {
 
 
-    @ApiModelProperty(name = "page",value = "页码",required = false)
+    @ApiModelProperty(name = "page",value = "页码",required = true)
     private Long page;
 
-    @ApiModelProperty(name = "limit",value = "每页大小",required = false)
+    @ApiModelProperty(name = "limit",value = "每页大小",required = true)
     private Long limit;
 
     @ApiModelProperty(name = "sidx",value = "排序的字段",required = false)
